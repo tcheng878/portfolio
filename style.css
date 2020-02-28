@@ -1,0 +1,177 @@
+* {
+    font-family: Arial, Helvetica, sans-serif, serif;
+}
+html {
+    height:100%;
+    position:relative;
+}
+
+body {
+     height: 100%;
+     padding-top: 50px;
+     padding-bottom: 50px;
+     
+}
+#back_cat{
+    background-image: url("cat.jpg");
+    background-repeat: no-repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    opacity: 0.6;
+    z-index: 100;
+}
+#banner_top {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #f2ccc9;
+}
+#banner_bot {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    border-top: 2px solid #f2ccc9;
+    color: grey;
+}
+
+.listing {
+    list-style-type: none;
+    padding: 0px;
+    font-size: 38px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+.listing2 {
+    list-style-type: none;
+    padding-left: 75px;
+    padding-bottom: 22px;
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+.listing3 {
+    padding-left: 75px;
+    padding-bottom: 22px;
+    font-size: 22px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: left;
+}
+.list_header{
+    font-size: 24px;
+}
+.primary_listing {
+    margin-top: 16px;
+}
+
+#main_cont {
+    padding: 0px;
+}
+
+#move_row {
+    padding-right: 300px;
+}
+
+#image_box {
+    height: 40%;
+    background-color: #FFD5D5;
+}
+#pic_of_me{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+#picme1 {
+    border-radius: 50%;
+}
+#info_box {
+    height: 60%;
+    padding-top: 30px;
+}
+.info_header {
+    font-size: 24px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+#relevant_info {
+    font-size: 22px;
+    font-weight: normal;
+}
+
+#resume_banner {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+#projects_banner {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+#TEMP1_banner {
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+#TEMP2_banner{
+    font-size: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+#thomas_cheng_banner {
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: auto;
+    font-weight: bold;
+}
+
+/* Visual Adjustments */
+.pp1 {
+    margin-top: 70px;
+}
+.pp2 {
+    margin-left: 20px;
+}
+#pp3 {
+    padding-left: 45px;
+}
+#pp4 {
+    padding-top: 40px;
+    padding-left: 160px;
+}
+#pp5 {
+    padding-left: 110px;
+    font-size: 24px;
+    padding-bottom: 24px;
+    font-weight: bold;
+}
+#pp6 {
+    padding-left: 150px;
+    font-size: 22px;
+    font-weight: normal;
+}
+/* memes */
+#meowzers {
+    position: absolute;
+    left: 40%;
+    top: 31%;
+    font-weight: bold;
+}
+#meowzers2 {
+    position: absolute;
+    left: 28%;
+    top: 12%;
+    font-weight: bold;
+}
